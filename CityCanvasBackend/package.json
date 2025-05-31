@@ -1,11 +1,11 @@
 {
   "name": "city_canvas",
   "version": "1.0.0",
+  "main": "index.js",
   "type": "module",
-  "main": "Server.js",
   "scripts": {
-    "dev": "node Server.js",
-    "start": "npx nodemon Server.js"
+    "dev": "node index.js",
+    "start": "npx nodemon index.js"
   },
   "keywords": [],
   "author": "",
