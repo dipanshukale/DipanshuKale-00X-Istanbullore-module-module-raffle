@@ -5,7 +5,7 @@ document.addEventListener("DOMContentLoaded", async () => {
 	async function getStatus() {
 		try {
 			const res = await fetch(
-				"http://localhost:3000/api/raffle-status?userId=123"
+				"https://citycanvas-backendapi.onrender.com/api/raffle-status?userId=123"
 			);
       const data = await res.json();
 			status.textContent = `✅ You have ${data.tickets} tickets`;
@@ -16,7 +16,7 @@ document.addEventListener("DOMContentLoaded", async () => {
 
 	btn.addEventListener("click", async () => {
 		try {
-			const res = await fetch("http://localhost:3000/api/raffle-entry", {
+			const res = await fetch("https://citycanvas-backendapi.onrender.com/api/raffle-entry", {
 				method: "POST"
 			});
 			const data = await res.json();
