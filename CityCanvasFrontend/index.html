@@ -1,0 +1,68 @@
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Istanbul Lore – Discover the Untold Stories</title>
+  <meta name="description" content="Explore IstanbulLore.com – a hub of hidden histories, local tales, and artistic narratives from the heart of Istanbul." />
+  <link href="https://fonts.googleapis.com/css2?family=Lora&family=Playfair+Display:wght@700;900&family=Montserrat&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="../CityCanvasFrontend/styles.css" />
+</head>
+<body>
+  <header class="hero" role="banner" aria-label="Hero section with Istanbul backdrop and site identity">
+    <div class="hero-bg" aria-hidden="true"></div>
+    <div class="hero-content">
+      <h1 class="hero-title" lang="en">City Canvas</h1>
+      <p class="subtitle" lang="en">Discover the Untold Stories of a Timeless City</p>
+      <p id="heroRaffleStatus" class="raffle-status" aria-live="polite" aria-atomic="true"></p>
+    </div>
+  </header>
+  <main>
+    <section class="main-section" aria-label="Main content layout with content feed and raffle sidebar">
+      <div class="main-grid">
+        <div class="content-feed">
+          <article class="fade-in-block story-card">
+            <h3 class="story-title">Whispers from Balat’s Walls</h3>
+            <p class="story-text">
+              Tucked within Balat’s maze-like alleys, the walls do more than crumble—they speak. 
+              Layers of graffiti and faded murals bleed into one another, each fragment echoing forgotten protests, clandestine loves, and timeless resilience. 
+              Under the soft haze of dusk, what appears to be decay is in fact a mural of memory—an ever-changing canvas of the city’s soul.
+            </p>
+          </article>
+          <article class="fade-in-block story-card">
+            <h3 class="story-title">The Midnight Simit Vendor</h3>
+            <p class="story-text">
+              When Istanbul sleeps, he stirs—a lone vendor, cart glowing amber beneath Galata’s watchful tower. 
+              Locals exchange quiet nods, tourists linger in curiosity. There’s magic in his motion, ritual in his rhythm. 
+              The scent of toasted sesame trails behind him like a story passed down—freshly baked into the city’s night air.
+            </p>
+          </article>
+        </div>
+        <aside class="raffle-sidebar" role="complementary" aria-labelledby="raffle-title">
+          <div class="raffle-card">
+            <h2 id="raffle-title">🎟️ Join the Raffle</h2>
+            <p>Be part of the narrative and stand a chance to receive exclusive keepsakes inspired by the soul of Istanbul.</p>
+            <button id="raffleBtn" class="primary-btn" type="button" aria-describedby="raffle-status-msg">
+              🎟️ Join the Raffle
+            </button>
+            <p id="raffleStatus">Loading ticket status...</p>
+          </div>
+        </aside>
+      </div>
+    </section>
+  </main>
+  <footer class="site-footer" role="contentinfo">
+    <div class="footer-container">
+      <p class="footer-text">&copy; 2025 <strong>IstanbulLore.com</strong> – Crafted with culture in mind.</p>
+      <nav class="footer-social" aria-label="Social media links">
+        <a href="#" aria-label="Follow us on Instagram" class="social-link">
+        </a>
+        <a href="#" aria-label="Follow us on Twitter" class="social-link">
+        </a>
+        <a href="#" aria-label="Follow us on Facebook" class="social-link">
+        </a>
+      </nav>
+    </div>
+  </footer>
+  <script src="../CityCanvasFrontend/script.js" defer></script>
+</body>
+</html>
